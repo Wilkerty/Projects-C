@@ -1,3 +1,11 @@
+/*Os elementos de uma matriz triangular inferior M, de dimensão n × n, podem ser
+armazenados em um vetor V de dimensão p. Suponha que os elementos da matriz são
+armazenados coluna a coluna no vetor, como no exemplo abaixo em que n = 4 e p = 10
+(a) Mostre como calcular a dimensão p do vetor V em função da dimensão n × n da
+matriz M.
+(b) Mostre como calcular o endereço k de um elemento no vetor V em função da posição
+(i, j) do mesmo na matriz M. Considere que 0 6 i, j < n e 0 6 k < p.*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
